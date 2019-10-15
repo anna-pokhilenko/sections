@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  background-color: #eee9de;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+section {
+vertical-align: middle;
+}
+.image {
+  display: inline-block;
+    padding: 1em;
+}
+.right{
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin-bottom:1.5rem;
+  float: left;
+}
+
+p {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  padding: 6em;
+  margin-bottom:1.5rem;
+  float: left;
+}
+
+a {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  padding: .4em .75em .5em;
+  float: left;
+}
