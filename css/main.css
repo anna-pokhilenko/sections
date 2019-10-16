@@ -2,46 +2,70 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #eee9de;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
-section {
-vertical-align: middle;
+
+body {
+  margin: 0;
 }
+
+img {
+  display: block;
+  width: 100%;
+}
+
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
 .image {
   display: inline-block;
-    padding: 1em;
+  padding: 1em;
+  max-width: 25em;
+  vertical-align: middle;
 }
-.right{
+
+.right {
   display: inline-block;
-  font-family: "Lato", sans-serif;
+  vertical-align: middle;
+  font-family: Lato, sans-serif;
   font-weight: bold;
+  text-align: left;
+  padding: 1em;
+  max-width: 25em;
 }
 
 h2 {
-  display: inline-block;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   font-weight: bold;
-  margin-bottom:1.5rem;
-  float: left;
+  margin: 0 0 1.5rem;
 }
 
 p {
-  display: inline-block;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   font-weight: normal;
-  padding: 6em;
-  margin-bottom:1.5rem;
-  float: left;
+  text-align: left;
+  margin-bottom: 1.5rem;
 }
 
-a {
-  display: inline-block;
-  font-family: "Lato", sans-serif;
+.btn {
+  font-family: Lato, sans-serif;
   font-weight: normal;
   text-decoration: none;
   padding: .4em .75em .5em;
-  float: left;
+  border-color: #333;
+  border-style: solid;
+  border-radius: .5em;
+  color: #333;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #666;
 }
